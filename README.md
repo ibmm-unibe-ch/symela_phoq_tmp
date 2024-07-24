@@ -43,20 +43,19 @@ The MD simulations revealed three distinct conformations of PhoQ, which we valid
   <img src="img/models.png" alt="f01" width="70%">
 </p>
 <p align="center">
-  <small>Cartoon representation of PhoQ's states (A) activated state (B) intermediate state (C) partially repressed state.</small>
+  <small>Cartoon representation of PhoQ's states (A) active state (B) intermediate state (C) partially repressed state.</small>
 </p>
 
+In an effort to uncover the signaling landscape of our dynamic PhoQ, we conducted metadynamics simulations to transition from the intermediate state to the active and repressed states. Regardless of how we manipulated the structure, we consistently observed unfolding at the interface between the sensor and transmembrane domains.
 
-Overcoming Challenges and Celebrating Wins
-Our journey wasn’t always smooth. We faced numerous challenges, from ensuring our models were accurate to running extensive simulations. Each phase of the project brought its own set of hurdles, but our team's determination kept us going.
+<p align="center">
+  <img src="img/meta.png" alt="f01" width="70%">
+</p>
+<p align="center">
+  <small>landscape of metadynamics simulations overlayed by the simulations trajectories of the active state(red), intermediate state (teal), and partially repressed state (orange).</small>
+</p>
 
 Despite the challenges, our collaborative efforts paid off. The insights we gained not only shed light on PhoQ's specific activation pathway but also provided broader implications for understanding the entire histidine kinase family. Our findings are paving the way for future research and potential new treatments targeting PhoQ modulation.
 
 ### Looking Ahead
-This project wouldn’t have been possible without the unwavering support of Professor Thomas Lemmin. His visionary ideas and mentorship were the backbone of our research. I’m also incredibly grateful to Dr. Jing Juan for her expertise and collaborative spirit, which enriched our work and broadened our horizons.
-
-As we look to the future, our team is excited to further explore how PhoQ interacts with small peptides and antimicrobial agents. The models we've generated open new doors for studying PhoQ's interactions and developing innovative therapeutic strategies to combat bacterial infections.
-
-### Conclusion
-The adventure of uncovering PhoQ is a testament to the power of teamwork and curiosity. It highlights the importance of interdisciplinary collaboration and the relentless pursuit of knowledge. As we continue our quest, we're committed to advancing molecular biology and finding new solutions to global health challenges.
-
+As we look to the future, we are excited to further explore how PhoQ interacts with small peptides and antimicrobial agents. The models we've generated open new doors for studying PhoQ's interactions and developing innovative therapeutic strategies to combat bacterial infections.
