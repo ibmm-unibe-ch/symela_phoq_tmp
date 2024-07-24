@@ -16,15 +16,21 @@
 # The Adventure of Unraveling PhoQ: Our Scientific Quest
 
 ### Introduction
-In the ever-fascinating world of molecular biology, the PhoQ histidine kinase protein is like a hidden treasure waiting to be discovered. Our journey to decode the secrets of PhoQ is a tale of curiosity, teamwork, and a lot of late-night brainstorming sessions. Here’s the story of how a passionate PhD student, a visionary professor, and an expert from Germany embarked on this scientific adventure.
+In the ever-fascinating world of molecular biology, the PhoQ histidine kinase protein is like a hidden treasure waiting to be discovered. Our journey to decode the secrets of PhoQ is a tale of curiosity, teamwork, and a lot of late-night brainstorming sessions.
 
 ### The Beginning
 It all started at the University of Bern, Switzerland. I was a PhD student working under the guidance of Professor Thomas Lemmin. The spark for this project came from Professor Lemmin's groundbreaking PhD thesis, which delved into the mysteries of two-component systems (TCSs) in bacteria. His enthusiasm was contagious, and soon, I found myself deeply immersed in the world of PhoQ.
 
-Our team got a significant boost when Dr. Jing Juan from the Max Planck Institute for Terrestrial Microbiology in Germany joined us. Dr. Juan is an expert in protein interactions, particularly how histidine kinase proteins like PhoQ interact with small peptides. Her expertise was the perfect complement to our team, and we were ready to dive into the unknown.
+Our team got a significant boost when Dr. Jing Juan from the Max Planck Institute for Terrestrial Microbiology in Germany joined us. Dr. Juan is an expert in PhoQ, and particularly she is investigating how histidine kinase proteins interact with small peptides. Her expertise was the perfect complement to our team, and we were ready to dive into the unknown.
 
 ### Discovering PhoQ's Role
 PhoQ is a histidine kinase protein that acts as a sensor in the PhoQ/PhoP two-component system. This system helps bacteria adapt to their environment, detecting changes like magnesium ion levels, acidic conditions, and the presence of antimicrobial peptides. When activated, PhoQ undergoes a change, triggering a chain reaction that alters gene expression and bacterial behavior.
+
+<img title="logo" alt="" src="img/Figure01.png" align="center" width="70%">
+<p align="center">
+  <small>(A) Schematic representation of PhoQ topology.  (B) Cartoon representation of the predicted PhoQ structure using AlphaFold2. Transmembrane domains (red), sensor and HAMP domains (shades of pink), and DhP and catalytic domains (shades of purple) are indicated. The membrane is depicted as a gray rectangle.</small>
+</p>
+
 
 ### Our Approach: Blending Tech and Biology
 To unravel PhoQ's secrets, we used a mix of cutting-edge technology and traditional molecular biology. We started with AlphaFold2 predictions and molecular modeling, followed by intense Molecular Dynamics (MD) simulations. This combo allowed us to peek into PhoQ's behavior in different states and identify key steps in its activation process.
