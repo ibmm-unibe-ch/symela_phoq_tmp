@@ -29,6 +29,13 @@ The spark for this project was first ignited with the release of AlphaFold2-mult
 
 While the AlphaFold2-multimer model provided a promising overall structure, we encountered inconsistencies with experimental data, particularly at the sensor domain interface. To address these discrepancies, we turned to molecular dynamics simulations to investigate the protein's dynamics. Our initial attempts to induce conformational changes in the sensor domain were unsuccessful.
 
+<p align="center">
+  <img src="img/Figure01.png" alt="f01" width="70%">
+</p>
+<p align="center">
+  <small>(A) Schematic representation of PhoQ topology.  (B) Cartoon representation of the predicted PhoQ structure using AlphaFold2. Transmembrane domains (red), sensor and HAMP domains (shades of pink), and DhP and catalytic domains (shades of purple) are indicated. The membrane is depicted as a gray rectangle.</small>
+</p>
+
 A breakthrough came with the integration of Thomas' model of the transmembrane domain. Although this model diverged significantly from the AlphaFold2 transmembrane predictions, it fit seamlessly with the rest of the structure. This modification allowed us to successfully open the sensor domain interface. Furthermore, our simulations offered unprecedented molecular insights into magnesium ion binding and membrane domain hydration, which have been crucial yet elusive aspects of signaling for over a decade.
 
 Through extensive simulations, we identified three distinct PhoQ conformations, all of which were validated by experimental data. One particularly notable conformation featured magnesium ions bridging the sensor domain’s acidic patch to the membrane, along with moderate membrane hydration, suggesting a repressed state. Additionally, we observed a highly hydrated intermediate state, providing new support for the hypothesis that water plays a significant role in PhoQ signaling.
@@ -51,9 +58,6 @@ To further explore the energetic landscape of PhoQ signaling, we employed metady
 
 Despite the challenges, our collaborative efforts paid off. The insights we gained not only shed light on PhoQ's specific activation pathway but also provided broader implications for understanding the entire histidine kinase family. Our findings are paving the way for future research and potential new treatments targeting PhoQ modulation.
 
-<p align="center">
-  <img src="img/Figure01.png" alt="f01" width="70%">
-</p>
 
 ### Looking Ahead
 As we look to the future, we are excited to further explore how PhoQ interacts with small peptides and antimicrobial agents. The models we have generated open new doors for studying PhoQ's interactions and developing innovative therapeutic strategies to combat bacterial infections.
