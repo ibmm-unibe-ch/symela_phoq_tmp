@@ -37,7 +37,7 @@ PhoQ is a histidine kinase protein that acts as a sensor in the PhoQ/PhoP two-co
 ### Our Approach: Blending Tech and Biology
 To unravel PhoQ's secrets, we used a mix of cutting-edge technology and traditional molecular biology. We started with AlphaFold2 predictions and molecular modeling, followed by intense Molecular Dynamics (MD) simulations. This combo allowed us to peek into PhoQ's behavior in different states and identify key steps in its activation process.
 
-The MD simulations revealed three distinct conformations of PhoQ, which we validated with experimental data. One particularly exciting discovery was a conformation where magnesium ions bridged the acidic patch in the sensor domain to the membrane, likely representing a repressed state. This state was also accompanied by a moderate hydration of the transmembrane bundle. We also observed high hydration in a potential intermediate state, supporting the idea of water playing a role in PhoQ's signaling.
+The MD simulations revealed three distinct conformations of PhoQ, which we validated with experimental data. One particularly exciting discovery was a conformation where magnesium ions bridged the acidic patch in the sensor domain to the membrane, accompanied by moderate hydration of the transmembrane bundle, likely representing a repressed state. We also observed high hydration in a potential intermediate state, supporting the idea of water playing a role in PhoQ's signaling.
 
 Overcoming Challenges and Celebrating Wins
 Our journey wasn’t always smooth. We faced numerous challenges, from ensuring our models were accurate to running extensive simulations. Each phase of the project brought its own set of hurdles, but our team's determination kept us going.
