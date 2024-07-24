@@ -8,36 +8,30 @@
 
 <div align="center">
 <h1 style="text-align: center;">
-    Atomic insights into the signaling landscape of <em>E. coli</em> PhoQ Histidine Kinase from Molecular Dynamics simulations
+    Behind the paper: The complex world of PhoQ signaling: A computational exploration
 </h1>
 </div>
 
-
-# The Adventure of Unraveling PhoQ: Our Scientific Quest
-
 ### Introduction
-In the ever-fascinating world of molecular biology, the PhoQ histidine kinase protein is like a hidden treasure waiting to be discovered. Our journey to decode the secrets of PhoQ is a tale of curiosity, teamwork, and a lot of late-night brainstorming sessions.
+The rise of antibiotic-resistant bacteria poses a severe threat to global health, with millions affected each year. Despite significant research efforts, the discovery of new antibiotic classes has been challenging, leaving us in a critical need for innovative approaches. Furthermore, developing effective antibiotics is only part of the solution. To truly combat bacterial infections, we must also understand how these pathogens perceive and respond to their environment.
+Bacteria employ sophisticated systems to sense and adapt to their surroundings. Among these, two-component systems (TCS) are pivotal. These regulatory systems typically consist of a sensor histidine kinase located in the cytoplasmic membrane and a response regulator in the cytoplasm. The sensor detects environmental stimuli, triggering a phosphorylation cascade that ultimately modulates gene expression.
 
-### The Beginning
-It all started at the University of Bern, Switzerland. I was a PhD student working under the guidance of Professor Thomas Lemmin. The spark for this project came from Professor Lemmin's groundbreaking PhD thesis, which delved into the mysteries of two-component systems (TCSs) in bacteria. His enthusiasm was contagious, and soon, I found myself deeply immersed in the world of PhoQ.
+PhoQ is a quintessential example of a histidine kinase that serves as a sensor in the PhoQ/PhoP TCS. This system is crucial for bacterial survival and virulence, as it orchestrates responses to a variety of environmental stressors, including magnesium limitation, acidic pH, and the presence of antimicrobial peptides. However, the precise molecular signaling mechanism of PhoQ has remained elusive due to the lack of detailed atomic-level structural information.
 
-Our team got a significant boost when Dr. Jing Juan from the Max Planck Institute for Terrestrial Microbiology in Germany joined us. Dr. Juan is an expert in PhoQ, and particularly she is investigating how histidine kinase proteins interact with small peptides. Her expertise was the perfect complement to our team, and we were ready to dive into the unknown.
+Our journey to decode the secrets of PhoQ signaling is a tale of curiosity, teamwork, and a lot of late-night brainstorming sessions.
 
-### Discovering PhoQ's Role
-PhoQ is a histidine kinase protein that acts as a sensor in the PhoQ/PhoP two-component system. This system helps bacteria adapt to their environment, detecting changes like magnesium ion levels, acidic conditions, and the presence of antimicrobial peptides. When activated, PhoQ undergoes a change, triggering a chain reaction that alters gene expression and bacterial behavior.
+### The beginning
+It all started at the University of Bern, Switzerland, where I am a PhD student working under the guidance of Professor Thomas Lemmin. Integral membrane proteins like PhoQ are notoriously difficult to study experimentally, making computational modeling an invaluable tool for understanding their structure and function. During his own PhD, Thomas had produced a high-resolution structural model of PhoQ's transmembrane domain, but constructing a full-length protein structure remained an elusive goal.
 
-<p align="center">
-  <img src="img/Figure01.png" alt="f01" width="70%">
-</p>
-<p align="center">
-  <small>(A) Schematic representation of PhoQ topology.  (B) Cartoon representation of the predicted PhoQ structure using AlphaFold2. Transmembrane domains (red), sensor and HAMP domains (shades of pink), and DhP and catalytic domains (shades of purple) are indicated. The membrane is depicted as a gray rectangle.</small>
-</p>
+The spark for this project was first ignited with the release of AlphaFold2-multimer. Collaborating with Dr. Jing Yuan from the Max Planck Institute for Terrestrial Microbiology, a leading expert on histidine kinases and regulation mechanisms of small proteins, was the catalyst we needed. Jing's expertise, in conjunction with Thomas' foundational work, kindled the flame that illuminated our path into the unknown. Their shared enthusiasm was infectious, and soon I found myself fully immersed in the intriguing world of PhoQ, eager to uncover its secrets.
 
+### Our approach: Integrating Deep learning and Biology
 
-### Our Approach: Blending Tech and Biology
-To unravel PhoQ's secrets, we used a mix of cutting-edge technology and traditional molecular biology. We started with AlphaFold2 predictions and molecular modeling, followed by intense Molecular Dynamics (MD) simulations. This combo allowed us to peek into PhoQ's behavior in different states and identify key steps in its activation process.
+While the AlphaFold2-multimer model provided a promising overall structure, we encountered inconsistencies with experimental data, particularly at the sensor domain interface. To address these discrepancies, we turned to molecular dynamics simulations to investigate the protein's dynamics. Our initial attempts to induce conformational changes in the sensor domain were unsuccessful.
 
-The MD simulations revealed three distinct conformations of PhoQ, which we validated with experimental data. One particularly exciting discovery was a conformation where magnesium ions bridged the acidic patch in the sensor domain to the membrane, accompanied by moderate hydration of the transmembrane bundle, likely representing a repressed state. We also observed high hydration in a potential intermediate state, supporting the idea of water playing a role in PhoQ's signaling.
+A breakthrough came with the integration of Thomas' model of the transmembrane domain. Although this model diverged significantly from the AlphaFold2 transmembrane predictions, it fit seamlessly with the rest of the structure. This modification allowed us to successfully open the sensor domain interface. Furthermore, our simulations offered unprecedented molecular insights into magnesium ion binding and membrane domain hydration, which have been crucial yet elusive aspects of signaling for over a decade.
+
+Through extensive simulations, we identified three distinct PhoQ conformations, all of which were validated by experimental data. One particularly notable conformation featured magnesium ions bridging the sensor domain’s acidic patch to the membrane, along with moderate membrane hydration, suggesting a repressed state. Additionally, we observed a highly hydrated intermediate state, providing new support for the hypothesis that water plays a significant role in PhoQ signaling.
 
 <p align="center">
   <img src="img/models.png" alt="f01" width="70%">
@@ -46,7 +40,7 @@ The MD simulations revealed three distinct conformations of PhoQ, which we valid
   <small>Cartoon representation of PhoQ's states (A) active state (B) intermediate state (C) partially repressed state.</small>
 </p>
 
-In an effort to uncover the signaling landscape of our dynamic PhoQ, we conducted metadynamics simulations to transition from the intermediate state to the active and repressed states. Regardless of how we manipulated the structure, we consistently observed unfolding at the interface between the sensor and transmembrane domains.
+To further explore the energetic landscape of PhoQ signaling, we employed metadynamics simulations to characterize transitions between the identified states. However, despite promising initial results, these simulations consistently encountered challenges with protein stability, particularly unfolding at the sensor-transmembrane domain interface.
 
 <p align="center">
   <img src="img/meta.png" alt="f01" width="70%">
@@ -57,5 +51,11 @@ In an effort to uncover the signaling landscape of our dynamic PhoQ, we conducte
 
 Despite the challenges, our collaborative efforts paid off. The insights we gained not only shed light on PhoQ's specific activation pathway but also provided broader implications for understanding the entire histidine kinase family. Our findings are paving the way for future research and potential new treatments targeting PhoQ modulation.
 
+<p align="center">
+  <img src="img/Figure01.png" alt="f01" width="70%">
+</p>
+<p align="center">
+  <small>(A) Schematic representation of PhoQ topology.  (B) Cartoon representation of the predicted PhoQ structure using AlphaFold2. Transmembrane domains (red), sensor and HAMP domains (shades of pink), and DhP and catalytic domains (shades of purple) are indicated. The membrane is depicted as a gray rectangle.</small>
+</p>
 ### Looking Ahead
-As we look to the future, we are excited to further explore how PhoQ interacts with small peptides and antimicrobial agents. The models we've generated open new doors for studying PhoQ's interactions and developing innovative therapeutic strategies to combat bacterial infections.
+As we look to the future, we are excited to further explore how PhoQ interacts with small peptides and antimicrobial agents. The models we have generated open new doors for studying PhoQ's interactions and developing innovative therapeutic strategies to combat bacterial infections.
