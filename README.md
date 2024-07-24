@@ -54,8 +54,6 @@ Despite the challenges, our collaborative efforts paid off. The insights we gain
 <p align="center">
   <img src="img/Figure01.png" alt="f01" width="70%">
 </p>
-<p align="center">
-  <small>(A) Schematic representation of PhoQ topology.  (B) Cartoon representation of the predicted PhoQ structure using AlphaFold2. Transmembrane domains (red), sensor and HAMP domains (shades of pink), and DhP and catalytic domains (shades of purple) are indicated. The membrane is depicted as a gray rectangle.</small>
-</p>
+
 ### Looking Ahead
 As we look to the future, we are excited to further explore how PhoQ interacts with small peptides and antimicrobial agents. The models we have generated open new doors for studying PhoQ's interactions and developing innovative therapeutic strategies to combat bacterial infections.
