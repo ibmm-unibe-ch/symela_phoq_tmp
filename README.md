@@ -27,7 +27,7 @@ Our team got a significant boost when Dr. Jing Juan from the Max Planck Institut
 PhoQ is a histidine kinase protein that acts as a sensor in the PhoQ/PhoP two-component system. This system helps bacteria adapt to their environment, detecting changes like magnesium ion levels, acidic conditions, and the presence of antimicrobial peptides. When activated, PhoQ undergoes a change, triggering a chain reaction that alters gene expression and bacterial behavior.
 
 <p align="center">
-  <img src="img/Figure01.png" alt="f01" width="30%">
+  <img src="img/Figure01.png" alt="f01" width="50%">
 </p>
 <p align="center">
   <small>(A) Schematic representation of PhoQ topology.  (B) Cartoon representation of the predicted PhoQ structure using AlphaFold2. Transmembrane domains (red), sensor and HAMP domains (shades of pink), and DhP and catalytic domains (shades of purple) are indicated. The membrane is depicted as a gray rectangle.</small>
