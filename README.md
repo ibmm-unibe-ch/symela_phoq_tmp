@@ -8,7 +8,7 @@
 
 <div align="center">
 <h1 style="text-align: center;">
-    Atomic insights into the signaling landscape of _E. coli_ PhoQ Histidine Kinase from Molecular Dynamics simulations
+    Atomic insights into the signaling landscape of <em>E. coli</em> PhoQ Histidine Kinase from Molecular Dynamics simulations
 </h1>
 </div>
 
