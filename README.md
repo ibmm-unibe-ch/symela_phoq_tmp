@@ -25,7 +25,7 @@ It all started at the University of Bern, Switzerland, where I am a PhD student 
 
 The spark for this project was first ignited with the release of AlphaFold2-multimer. Collaborating with Dr. Jing Yuan from the Max Planck Institute for Terrestrial Microbiology, a leading expert on histidine kinases and regulation mechanisms of small proteins, was the catalyst we needed. Jing's expertise, in conjunction with Thomas' foundational work, kindled the flame that illuminated our path into the unknown. Their shared enthusiasm was infectious, and soon I found myself fully immersed in the intriguing world of PhoQ, eager to uncover its secrets.
 
-### Our approach: Integrating Deep learning and Biology
+### Bridging models to illuminate PhoQ dynamics
 
 While the AlphaFold2-multimer model provided a promising overall structure, we encountered inconsistencies with experimental data, particularly at the sensor domain interface. To address these discrepancies, we turned to molecular dynamics simulations to investigate the protein's dynamics. Our initial attempts to induce conformational changes in the sensor domain were unsuccessful.
 
