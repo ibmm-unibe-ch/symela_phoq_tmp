@@ -1,3 +1,18 @@
+<div align="center">   
+<img title="logo" alt="" src="img/Figure01.png"  width="600" height="300" align="center">
+
+<br/><br/>
+[![DOI:10.1093/bioadv/vbae103](http://img.shields.io/badge/DOI-10.1093/bioadv/vbae103-F28C28.svg)](https://www.biorxiv.org/content/10.1101/2024.04.19.590235v1)
+
+</div>
+
+<div align="center">
+<h1 style="text-align: center;">
+    Atomic insights into the signaling landscape of _E. coli_ PhoQ Histidine Kinase from Molecular Dynamics simulations
+</h1>
+</div>
+
+
 # The Adventure of Unraveling PhoQ: Our Scientific Quest
 
 ### Introduction
