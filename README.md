@@ -8,7 +8,7 @@
 
 <div align="center">
 <h1 style="text-align: center;">
-    Behind the paper: The complex world of PhoQ signaling: A computational exploration
+    Behind the paper: A computational exploration of the complex world of PhoQ signaling
 </h1>
 </div>
 
