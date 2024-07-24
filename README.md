@@ -39,6 +39,14 @@ To unravel PhoQ's secrets, we used a mix of cutting-edge technology and traditio
 
 The MD simulations revealed three distinct conformations of PhoQ, which we validated with experimental data. One particularly exciting discovery was a conformation where magnesium ions bridged the acidic patch in the sensor domain to the membrane, accompanied by moderate hydration of the transmembrane bundle, likely representing a repressed state. We also observed high hydration in a potential intermediate state, supporting the idea of water playing a role in PhoQ's signaling.
 
+<p align="center">
+  <img src="img/models.png" alt="f01" width="70%">
+</p>
+<p align="center">
+  <small>Cartoon representation of PhoQ's states (A) activated state (B) intermediate state (C) partially repressed state.</small>
+</p>
+
+
 Overcoming Challenges and Celebrating Wins
 Our journey wasn’t always smooth. We faced numerous challenges, from ensuring our models were accurate to running extensive simulations. Each phase of the project brought its own set of hurdles, but our team's determination kept us going.
 
